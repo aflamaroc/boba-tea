@@ -1,0 +1,27 @@
+*{
+    /* aqua on top */
+    font-family: "Lucida Grande",  "Hevletica", Verdana;
+    box-sizing: border-box;
+    color: gainsboro;
+}
+#snakeimg{
+    float: right;
+    width: 20dvw;
+}
+body{ 
+    /* i'm not changing height cuz it looks weird and the browser's default actions work fine here */
+    border-radius: 4vmax;
+    border-color: black;
+    border-style: solid;
+    border-width: 1vmin; /* because retina */
+}
+html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #ff0000;
+background: linear-gradient(90deg,rgb(50, 0, 89) 0%, rgb(120, 0, 0) 100%);
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
